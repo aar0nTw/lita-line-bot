@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/aar0nTw/lita-line.git
-  revision: 14a854ad748ed0bd3117143bb1fee212b8fc148e
+  revision: 11cdd1d86ad6c659aaca24984071fb1a928af6da
   branch: master
   specs:
     lita-line (0.5.2)
