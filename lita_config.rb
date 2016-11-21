@@ -1,4 +1,3 @@
-Lita.load_locales(Dir[File.join(File.expand_path("../", __FILE__), "locales", "*.yml")])
 Lita.configure do |config|
   # The name your robot will use.
   config.robot.name = "Cabot"
@@ -39,3 +38,7 @@ Lita.configure do |config|
   config.handlers.google_images.google_cse_id = ENV["GOOGLE_CSE_ID"]
   config.handlers.google_images.google_cse_key = ENV["GOOGLE_CSE_KEY"]
 end
+locale_paths = Dir[File.join(File.expand_path("../", __FILE__), "locales", "*.yml")]
+Lita.logger.info locale_paths
+Lita.load_locales(locale_paths)
+
