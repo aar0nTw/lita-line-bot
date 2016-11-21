@@ -34,4 +34,6 @@ Lita.configure do |config|
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
+  config.handlers.google_images.google_cse_id = ENV["GOOGLE_CSE_ID"]
+  config.handlers.google_images.google_cse_key = ENV["GOOGLE_CSE_KEY"]
 end
