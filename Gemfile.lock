@@ -40,6 +40,8 @@ GEM
       cleverbot_io (~> 1.2.2)
       htmlentities (~> 4.3)
       lita (>= 4.6)
+    lita-diceman (1.0.0)
+      lita (>= 4.3)
     lita-line (0.5.2)
       eventmachine
       line-bot-api (~> 1.0.0)
@@ -69,6 +71,7 @@ DEPENDENCIES
   lita
   lita-ai
   lita-cwb!
+  lita-diceman
   lita-line (>= 0.5.0)
   lita-lunch
 
