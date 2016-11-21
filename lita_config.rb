@@ -1,3 +1,4 @@
+Lita.load_locales(Dir[File.join(File.expand_path("../", __FILE__), "locales", "*.yml")])
 Lita.configure do |config|
   # The name your robot will use.
   config.robot.name = "Cabot"
