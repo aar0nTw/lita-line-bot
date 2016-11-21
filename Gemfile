@@ -13,5 +13,6 @@ gem "lita-diceman"
 
 # Add handlers to give Lita new functionality.
 # For example:
- gem "lita-google-images"
- #gem "lita-karma"
+gem "lita-google-images"
+gem "lita-google"
+#gem "lita-karma"
