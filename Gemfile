@@ -7,6 +7,7 @@ gem "lita"
 #
 gem "lita-line", '>= 0.5.0'
 gem "lita-diceman"
+gem "lita-cwb"
 
 # Uncomment to use the IRC adapter
 # gem "lita-irc"
