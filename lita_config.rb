@@ -1,6 +1,6 @@
 Lita.configure do |config|
   # The name your robot will use.
-  config.robot.name = "Cabot"
+  config.robot.name = "Lita"
 
   # The locale code for the language to use.
   # config.robot.locale = :en
