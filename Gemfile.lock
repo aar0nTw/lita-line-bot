@@ -24,14 +24,14 @@ GEM
       thor (>= 0.18.1)
     lita-diceman (1.0.0)
       lita (>= 4.3)
-    lita-google (1.1.0)
-      lita (>= 4.0)
     lita-google-images (3.1.0)
       lita (>= 4.0)
     lita-line (0.5.2)
       eventmachine
       line-bot-api (~> 1.0.0)
       lita (>= 4.7)
+    lita-lunch (0.2.0)
+      lita (>= 4.4)
     multi_json (1.12.1)
     multipart-post (2.0.0)
     puma (3.6.0)
@@ -50,9 +50,9 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-diceman
-  lita-google
   lita-google-images
   lita-line (>= 0.5.0)
+  lita-lunch
 
 BUNDLED WITH
    1.13.6
