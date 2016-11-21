@@ -6,6 +6,7 @@ gem "lita"
 # gem "lita-hipchat"
 #
 gem "lita-line", github: "aar0nTw/lita-line", branch: :master
+gem "lita-diceman"
 
 # Uncomment to use the IRC adapter
 # gem "lita-irc"
