@@ -36,7 +36,7 @@ Lita.configure do |config|
   # config.handlers.some_handler.some_config_key = "value"
   config.handlers.google_images.google_cse_id = ENV["GOOGLE_CSE_ID"]
   config.handlers.google_images.google_cse_key = ENV["GOOGLE_CSE_KEY"]
-  config.handlers.karma.colddown = nil
+  config.handlers.karma.cooldown = nil
 end
 locale_paths = Dir[File.join(File.expand_path("../", __FILE__), "locales", "*.yml")]
 Lita.logger.info locale_paths
