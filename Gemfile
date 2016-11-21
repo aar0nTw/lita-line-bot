@@ -5,7 +5,7 @@ gem "lita"
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
 #
-gem "lita-line", git: "https://github.com/aar0nTw/lita-line", branch: :master
+gem "lita-line", '>= 0.5.0'
 gem "lita-diceman"
 
 # Uncomment to use the IRC adapter
@@ -13,5 +13,5 @@ gem "lita-diceman"
 
 # Add handlers to give Lita new functionality.
 # For example:
-# gem "lita-google-images"
-# gem "lita-karma"
+ gem "lita-google-images"
+ #gem "lita-karma"
