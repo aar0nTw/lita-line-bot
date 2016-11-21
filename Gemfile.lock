@@ -7,6 +7,16 @@ GIT
       lita (>= 4.3)
       nokogiri (~> 1.6.6.2)
 
+GIT
+  remote: git://github.com/aar0nTw/lita-line.git
+  revision: 14a854ad748ed0bd3117143bb1fee212b8fc148e
+  branch: master
+  specs:
+    lita-line (0.5.2)
+      eventmachine
+      line-bot-api (~> 1.0.0)
+      lita (>= 4.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -42,10 +52,6 @@ GEM
       lita (>= 4.6)
     lita-diceman (1.0.0)
       lita (>= 4.3)
-    lita-line (0.5.2)
-      eventmachine
-      line-bot-api (~> 1.0.0)
-      lita (>= 4.7)
     lita-lunch (0.2.0)
       lita (>= 4.4)
     mini_portile (0.6.2)
@@ -72,7 +78,7 @@ DEPENDENCIES
   lita-ai
   lita-cwb!
   lita-diceman
-  lita-line (>= 0.5.0)
+  lita-line (>= 0.5.0)!
   lita-lunch
 
 BUNDLED WITH
