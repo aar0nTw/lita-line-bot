@@ -9,4 +9,8 @@ en:
         duplicate: "I already know about %{place}"
         removed: "%{place} 從午餐清單移除了"
         unfound: "You will need to be more specific"
+      howlongtobeat:
+        help:
+          howlongtobeat_key: NAME 要玩多久
+          howlongtobeat_value: "查詢遊戲時間"
 

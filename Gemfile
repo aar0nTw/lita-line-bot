@@ -8,6 +8,7 @@ gem "lita"
 gem "lita-line", '>= 0.5.0'
 gem "lita-diceman"
 gem "lita-cwb", github: 'aar0nTw/lita-cwb', branch: :master
+gem "lita-howlongtobeat"
 
 # Uncomment to use the IRC adapter
 # gem "lita-irc"
