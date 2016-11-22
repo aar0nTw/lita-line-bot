@@ -1,6 +1,6 @@
 # lita-line-bot
 
-A Line bot example, use [Lita](https://lita.io), and [lita-line](https://github.com/aar0nTw/lita-line) adapter
+A [LINE](https://line.me) messaging bot example, use [Lita](https://lita.io), and [lita-line](https://github.com/aar0nTw/lita-line) adapter
 
 # Starting a chat with lita-lin
 
