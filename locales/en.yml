@@ -4,9 +4,9 @@ en:
       lunch:
         fallback: "that place you like"
         suggest: "%{place} 如何?"
-        empty: "None added yet"
+        empty: "餐廳列表示空的"
         added: "%{place} 被加入午餐清單"
-        duplicate: "I already know about %{place}"
+        duplicate: "%{place} 已經有了"
         removed: "%{place} 從午餐清單移除了"
         unfound: "You will need to be more specific"
       howlongtobeat:
