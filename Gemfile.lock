@@ -42,7 +42,7 @@ GEM
       lita (>= 4.6)
     lita-diceman (1.0.0)
       lita (>= 4.3)
-    lita-line (1.0.0.nightly.40)
+    lita-line (1.0.0)
       eventmachine
       line-bot-api (~> 1.0.0)
       lita (>= 4.7)
@@ -72,7 +72,7 @@ DEPENDENCIES
   lita-ai
   lita-cwb!
   lita-diceman
-  lita-line (>= 1.0.0.nightly)
+  lita-line (>= 1.0.0)
   lita-lunch
 
 BUNDLED WITH
