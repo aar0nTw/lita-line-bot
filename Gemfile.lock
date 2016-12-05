@@ -42,7 +42,7 @@ GEM
       lita (>= 4.6)
     lita-diceman (1.0.0)
       lita (>= 4.3)
-    lita-line (0.6.1)
+    lita-line (1.0.0.nightly.40)
       eventmachine
       line-bot-api (~> 1.0.0)
       lita (>= 4.7)
@@ -54,13 +54,13 @@ GEM
     nokogiri (1.6.6.4)
       mini_portile (~> 0.6.0)
     oj (2.17.5)
-    puma (3.6.1)
+    puma (3.6.2)
     rack (1.6.5)
     rb-readline (0.5.3)
     redis (3.3.2)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
-    thor (0.19.1)
+    thor (0.19.4)
     url_mount (0.2.1)
       rack
 
@@ -72,7 +72,7 @@ DEPENDENCIES
   lita-ai
   lita-cwb!
   lita-diceman
-  lita-line (>= 0.5)
+  lita-line (>= 1.0.0.nightly)
   lita-lunch
 
 BUNDLED WITH

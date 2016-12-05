@@ -5,7 +5,7 @@ gem "lita"
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
 #
-gem "lita-line", '>= 0.5'
+gem "lita-line", '>= 1.0.0.nightly'
 gem "lita-cwb", github: 'aar0nTw/lita-cwb', branch: :master
 gem 'lita-ai'
 gem 'lita-diceman'
